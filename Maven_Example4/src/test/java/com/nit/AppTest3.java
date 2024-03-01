@@ -1,4 +1,4 @@
-package com.nit.Test2;
+package com.nit;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -11,7 +11,7 @@ import BankingService.CustomerRegistrationATBank;
 import BankingService.CutomerRegistrationInBankImpClass;
 import BankingService.LoginDao;
 
-public class AppTest {
+public class AppTest3 {
 	private static LoginDao dao;
 	private static CustomerRegistrationATBank login;
 @BeforeAll
