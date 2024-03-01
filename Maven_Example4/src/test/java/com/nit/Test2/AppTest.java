@@ -3,6 +3,7 @@ package com.nit.Test2;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -22,6 +23,7 @@ public  static void setUp() {
 }
 @Test
 @DisplayName("Equals")
+@Tag("uat")
 public void testWithEquals() {
 	login.add("saipavan", "saipavan12");
 	Mockito.verify(dao,Mockito.times(1)).register("saipavan", "saipavan12");
