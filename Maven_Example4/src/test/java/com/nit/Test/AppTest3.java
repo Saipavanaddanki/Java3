@@ -1,4 +1,4 @@
-package com.nit;
+package com.nit.Test;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

@@ -3,7 +3,7 @@ package com.nit;
 
 public class App 
 {
-	int additionResult;
+	public int additionResult;
    public void add(int n,int m) {
 	   
 	   if(n>0 && m>0) {
