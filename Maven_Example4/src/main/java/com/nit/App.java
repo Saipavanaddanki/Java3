@@ -3,16 +3,18 @@ package com.nit;
 
 public class App 
 {
+	int additionResult;
    public void add(int n,int m) {
+	   
 	   if(n>0 && m>0) {
-		   int additionResult=m+n;
+		   additionResult=m+n;
 		   
 	   }
 	   else {
 		   throw new IllegalArgumentException("Negatives are Not Allowed");
 	   }
    }
-   public boolean even(int n) {
+   public boolean prime(int n) {
 	   int count=0;
 	   for(int i=1;i<=n;i++) {
 		   if(n%i==0) {
